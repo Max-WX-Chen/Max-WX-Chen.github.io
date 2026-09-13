@@ -1,0 +1,81 @@
+body {
+  letter-spacing: 0;
+}
+
+#navbar {
+  background: rgba(18, 27, 39, 0.72);
+  backdrop-filter: blur(14px);
+  box-shadow: none;
+}
+
+#navbar .navbar-brand,
+#navbar .nav-link {
+  letter-spacing: 0;
+}
+
+#banner {
+  background-position: center;
+}
+
+#banner .h2 {
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+#banner .subtitle {
+  letter-spacing: 0;
+}
+
+#board {
+  border-radius: 8px;
+  box-shadow: 0 18px 50px rgba(17, 24, 39, 0.12);
+}
+
+.index-card {
+  padding: 2rem 1.2rem;
+  border-bottom: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.index-card:last-child {
+  border-bottom: 0;
+}
+
+.index-card .index-header .index-title {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  font-weight: 760;
+  letter-spacing: 0;
+}
+
+.index-card .index-excerpt,
+.index-card .index-excerpt a {
+  color: #5f6f86;
+  line-height: 1.8;
+}
+
+.index-card .post-meta {
+  color: #7b8797;
+}
+
+.index-card .index-img {
+  border-radius: 8px;
+}
+
+.pagination a,
+.pagination .current {
+  border-radius: 8px;
+}
+
+footer {
+  letter-spacing: 0;
+}
+
+@media (max-width: 767px) {
+  #board {
+    border-radius: 0;
+  }
+
+  .index-card {
+    padding: 1.6rem 0.2rem;
+  }
+}
