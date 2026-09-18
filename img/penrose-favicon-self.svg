@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="diamond-clip">
+      <polygon points="32,3 61,32 32,61 3,32"/>
+    </clipPath>
+  </defs>
+  <polygon points="32,3 61,32 32,61 3,32" fill="#fcfaff"
+    stroke="#29196d" stroke-width="4" stroke-linejoin="miter"/>
+  <g clip-path="url(#diamond-clip)" fill="none" stroke-linecap="butt">
+    <path d="M32 4 C20 17 20 47 32 60 M32 4 C44 17 44 47 32 60"
+      stroke="#8877c3" stroke-width="2"/>
+    <path d="M32 4 C26 17 26 47 32 60 M32 4 C38 17 38 47 32 60"
+      stroke="#9c8bc8" stroke-width="1.7"/>
+    <path d="M4 32 Q32 15 60 32 M4 32 Q32 23 60 32"
+      stroke="#b49acb" stroke-width="1.8"/>
+    <path d="M4 32 Q32 41 60 32 M4 32 Q32 49 60 32"
+      stroke="#9b91c8" stroke-width="1.8"/>
+    <path d="M32 4 L4 32 M32 4 L60 32 M4 32 L32 60 M60 32 L32 60"
+      stroke="#8e83c5" stroke-width="1.5"/>
+    <path d="M32 3 V61 M3 32 H61"
+      stroke="#69589e" stroke-width="3"/>
+  </g>
+</svg>

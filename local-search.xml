@@ -5,8 +5,8 @@
   
   <entry>
     <title>博客初始化记录</title>
-    <link href="/2026/09/13/hello-world/"/>
-    <url>/2026/09/13/hello-world/</url>
+    <link href="/blog/2026/09/13/hello-world/"/>
+    <url>/blog/2026/09/13/hello-world/</url>
     
     <content type="html"><![CDATA[<p>这是博客的第一篇占位文章，用来记录这个站点是怎么从默认 Hexo 页面慢慢变成个人网站的。</p><p>现在的网站结构是：</p><ul><li><code>/</code> 是个人主页</li><li><code>/blog/</code> 是博客列表</li><li><code>/archives/</code> 是文章归档</li></ul><p>后面每次学习一个新知识点，都可以用一篇文章记录下来。这样博客不会只是“展示页面”，也会成为自己的学习笔记库。</p><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p>本地预览：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm run server<br></code></pre></td></tr></table></figure><p>重新生成静态文件：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm run build<br></code></pre></td></tr></table></figure><p>部署到 GitHub Pages：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm run deploy<br></code></pre></td></tr></table></figure>]]></content>
     
